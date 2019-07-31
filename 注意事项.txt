@@ -1,0 +1,3 @@
+1.在检测更新的时候需要将整个文件夹压缩，对应更新时下载的文件为build/build-upgrade.js 中定义
+2.再解压操作时，需要将tools复制到d盘下
+3.如果要将tools打包进exe则需要在 node依赖包中的_nw-builder-cache文件夹下的两个文件中加入，打包时就可以一起打包进去
